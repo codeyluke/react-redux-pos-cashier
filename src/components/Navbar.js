@@ -10,7 +10,7 @@ const Navbar = (props) => {
             POS CASHIER
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavDropdown"
