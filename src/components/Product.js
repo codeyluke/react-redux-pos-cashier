@@ -10,7 +10,7 @@ class Product extends Component {
           <div
             className="card"
             key={key}
-            style={{ width: "30%" }}
+            style={{ width: "30%", cursor: "pointer" }}
             onClick={() => addSelectedProductToCart(key)}
           >
             <div className="card-body">
